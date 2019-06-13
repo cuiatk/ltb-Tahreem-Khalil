@@ -29,6 +29,15 @@ public class Customer {
 		/**
 		 * TODO 3		10 Marks
 		 * Provide suitable specification for statement method 
+		 * 
+		 * this method is doing three specific tasks
+		 * 1- its calculating the total rent for the movies that the customer is renting
+		 * 2- its calculating the total frequent renter points (customer erans a point on each movie he rents) for the customer every movie
+		 * 3- last but not least this method is displaying all the information of customer i.e. total rent amount, frequent renter points,
+		 * money owned, and details of movies. 
+		 * 
+		 * its takes no parameter
+		 * @return returns a string containing the calculation details
 		 */
 		public String statement() {
 		double totalAmount = 0;
